@@ -1,0 +1,28 @@
+.empty{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-item{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+
+.empty-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.emoji{
+    font-size: 70px;
+}
+
+.empty p{
+   color: #BDBDBD; 
+}

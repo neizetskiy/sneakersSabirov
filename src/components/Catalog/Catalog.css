@@ -1,0 +1,16 @@
+.catalog{
+    margin-top: 40px;
+}
+
+.catalog-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    grid-gap: 40px;
+}

@@ -1,0 +1,62 @@
+.banner img{
+    width: 960px;
+}
+
+.banner-text{
+    position: absolute;
+    left:  40px;
+    top: 100px;
+}
+
+.banner-text span{
+    color: #8BB43C;
+}
+
+.banner-text h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+.banner{
+    position: relative;
+    margin-top: 45px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: grey;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  position: absolute;
+  top: 200px;
+}
+
+.swiper-button-next{
+    right: -10px;
+}
+
+.swiper-button-prev{
+  left: -10px;
+}
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px;
+}
+
+.swiper-container {
+    overflow: visible;
+  }

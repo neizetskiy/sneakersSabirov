@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-bottom: 35px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cartlink{
+    color: #5C5C5C;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
